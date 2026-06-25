@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int password;
+
+    cout << "Enter password: ";
+    cin >> password;
+
+    while(password != 2080) {
+        cout << "Incorrect Password" << endl;
+
+        cout << "Enter password again: ";
+        cin >> password;
+    }
+
+    cout << "Access granted to control panel";
+
+    return 0;
+}
